@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+bin/
+out/
+target/
+release/
+obj/
+dll/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Config files
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.swp
