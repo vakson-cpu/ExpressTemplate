@@ -8,4 +8,4 @@ Express js template  for a head start made by  Vahid Uglic.
 -Custom middlewares and responses
 -Error handling
 -----------------------------------------------
-If you ever download this, make sure to mention me in prayers :*
+If you ever clone this, make sure to mention me in prayers :*
