@@ -1,10 +1,10 @@
 Express js template  for a head start made by  Vahid Uglic.
 ## Template includes:
 - Good code organization
-- Database connection set
-- User and Role models set
-- Routes set
-- Jwt Authentification/Auth set
+- Database connection 
+- User and Role models 
+- Routes 
+- Jwt Authentification/Auth 
 - Custom middlewares and responses
 - Error handling
 ##
