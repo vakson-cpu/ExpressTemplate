@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const SeedingRoles = require("../Data/SeedRoles")
 
 
 const ConnectToDatabase=async(app,PORT)=>{
@@ -10,6 +11,8 @@ return await mongoose
   .then(() => {
     app.listen(PORT);
     console.log("Listening to Port:  ",PORT);
+    // ()=>SeedingRoles;
+
   })
   .catch((err) => {
     console.log(err);
@@ -20,4 +23,3 @@ return await mongoose
 module.exports =  ConnectToDatabase;
 
 
-//
