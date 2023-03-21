@@ -7,6 +7,6 @@ const userShema = new Schema({
   age: { type: Number, required: true },
   email:{type: String,required:true},
   password:{type:String,required:true},
-  roles: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Role' }]
+  role: { type: mongoose.Schema.Types.ObjectId, ref: 'Role' }
 });
 module.exports = mongoose.model("User", userShema);
